@@ -1,0 +1,87 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ladduu | Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      background: #020617;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 80px 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #38bdf8;
+    }
+
+    p {
+      font-size: 18px;
+      color: #94a3b8;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      background: #38bdf8;
+      color: black;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0ea5e9;
+    }
+
+    footer {
+      margin-top: 100px;
+      padding: 15px;
+      font-size: 14px;
+      color: #64748b;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  Ladduu Website
+</header>
+
+<div class="container">
+  <h1>Simple. Clean. Live.</h1>
+  <p>This is my first website hosted online.</p>
+
+  <button onclick="showMsg()">Click Me</button>
+</div>
+
+<footer>
+  © 2026 Ladduu
+</footer>
+
+<script>
+  function showMsg() {
+    alert("Website is working 🚀");
+  }
+</script>
+
+</body>
+</html>
